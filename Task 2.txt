@@ -1,0 +1,81 @@
+Differences between Document and Window Objects
+
+We will see the Document object & Window object, their various properties & methods  and differences between:
+
+
+Document Object:
+The document object represents a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. 
+With the help of document objects, we can add dynamic content to our web page. 
+The document object can be accessed with a window.document or just document.
+
+Syntax:
+              document.property_name;
+
+Properties of document:
+* activeElement                       *URL
+* body                                *Fullscreen Element
+* baseURI                             * title
+* cookie                              *head
+* Charset                             *lastModified
+* defaultview                         * images   
+* designMode                          *Implementation  
+* domain                               *readystate   
+*doctype                               *referer
+
+Methods of Document:
+Syntax:
+                 document.method_name;
+
+> addEventListener()                          > getElementsByName()
+> adoptNode()                                 > getElementsByTagName()
+>close()                                      > hasFocus()
+>createAttribute()                            > importNode()
+>createComment()                              > normalize()     
+>createDocumentFragment()                     > normalizeDocument()
+>createElement()                              > open()  
+>createEvent()                                > querySelector() 
+>createTextNode()                             >  querySelectorAll()
+>fullscreenEnabled()                          > removeEventListener()   
+>getElementById()                             > renameNode()
+>getElementsByClassName()                     > write()         
+
+Window Object:
+The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage.
+ Whenever a window appears on the screen to display the contents of the document, the window object is created.    
+
+Syntex:
+                window.property_name;
+
+Properties:
+
+*Closed                      * Navigator
+*customElements              * outerHeight
+*crypto                      * outerWidth 
+*devicePixelRatio            * Status
+*Document                    *  Top 
+*frames                      * Toolbar
+*Length                      * Opener
+*fullScreen                  *  Parent 
+*innerHeight                 * Self
+*innerWidth  
+
+Methods of Window:
+
+Syntex:
+                 window.method_name;
+
+>alert()                                > open()
+>atob()                                 > moveBy() 
+>blur()                                 > moveTo()
+>btoa()                                 > prompt()
+>clearInterval()                        > resizeBy()
+>clearTimeout()                         > resizeTo()
+>close()                                > scrollBy() 
+>confirm()                              > scrollTo() 
+>focus()                                > setInterval()
+>getComputedStyle()                     > setTimeout()
+>matchMedia() 
+                                                                         
+
+
+
